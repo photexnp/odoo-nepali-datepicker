@@ -1,0 +1,67 @@
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h2 class="oe_slogan" style="color:#003893;">Nepali Date Picker (Bikram Sambat)</h2>
+        <h3 class="oe_slogan">Show, type and pick dates in the Nepali calendar, right in the Odoo web client</h3>
+        <p class="oe_mt32" style="font-size:16px;">
+            Users in Nepal work with the Bikram Sambat (BS) calendar, while Odoo only shows Gregorian (AD)
+            dates. With this app each user chooses the calendar they want: BS users see every date in BS,
+            type BS dates, and get a BS calendar in the date picker. Dates are still stored in the Gregorian
+            calendar, so reports, filters, accounting and the other apps keep working unchanged.
+        </p>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan">A Bikram Sambat date picker</h3>
+        <p class="oe_mt32" style="text-align:center;">
+            The picker shows BS months with their real lengths (29 to 32 days), and moves by BS month, year
+            and decade. The selected day is saved as the matching Gregorian date.
+        </p>
+        <div class="oe_demo oe_screenshot" style="text-align:center;">
+            <img src="screenshot_picker.png" alt="Bikram Sambat date picker showing Poush 2083" style="max-width:100%;"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan">BS dates in forms and lists</h3>
+        <p class="oe_mt32" style="text-align:center;">
+            Date and datetime fields show BS dates, such as "Magh 1, 2083". You can also type them:
+            2083-10-01, 2083/10/1, 20831001 and Devanagari digits are all understood.
+        </p>
+        <div class="oe_demo oe_screenshot" style="text-align:center;">
+            <img src="screenshot_form.png" alt="Quotation form with a Bikram Sambat expiration date" style="max-width:100%;"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container oe_dark">
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan">A per-user preference</h3>
+        <p class="oe_mt32" style="text-align:center;">
+            Each user picks <b>Date Calendar</b> in <i>Preferences</i>: Gregorian (AD) or Nepali (Bikram Sambat).
+            Administrators can also set it on the user form, next to the timezone.
+        </p>
+        <div class="oe_demo oe_screenshot" style="text-align:center;">
+            <img src="screenshot_preferences.png" alt="Preferences dialog with the Date Calendar option" style="max-width:100%;"/>
+        </div>
+    </div>
+</section>
+
+<section class="oe_container">
+    <div class="oe_row oe_spaced">
+        <h3 class="oe_slogan">Good to know</h3>
+        <ul style="font-size:15px;">
+            <li>Supported range: 1970 to 2090 BS (1913 to 2034 AD). Dates outside it are shown in AD.</li>
+            <li>BS month lengths come from published Bikram Sambat tables, checked against two independent
+                open-source converters that agree on every month from 2000 to 2090 BS.</li>
+            <li>Nepali (ne_NP) users get Nepali month names. Digits follow the language's numbering system.</li>
+            <li>Calendar and Gantt views, date groupings and filters in search, and dates rendered on the
+                server (PDF reports, emails) stay in the Gregorian calendar.</li>
+            <li>No data migration: the app only changes how dates are shown and entered. Uninstalling it
+                leaves every date as it was.</li>
+        </ul>
+    </div>
+</section>
