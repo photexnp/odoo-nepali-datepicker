@@ -21,8 +21,8 @@ import {
     parseBs,
     toBs,
     toBsLocaleString,
-} from "@nepali_datepicker/bs_calendar/bs_calendar";
-import { BS_FORMAT_MARKER } from "@nepali_datepicker/bs_calendar/bs_patches";
+} from "@bs_nepali_datepicker/bs_calendar/bs_calendar";
+import { BS_FORMAT_MARKER } from "@bs_nepali_datepicker/bs_calendar/bs_patches";
 
 const { DateTime } = luxon;
 

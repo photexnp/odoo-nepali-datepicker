@@ -16,10 +16,10 @@ while dates are still stored in the Gregorian calendar.
     ],
     'assets': {
         'web.assets_backend': [
-            'nepali_datepicker/static/src/**/*',
+            'bs_nepali_datepicker/static/src/**/*',
         ],
         'web.assets_unit_tests': [
-            'nepali_datepicker/static/tests/**/*',
+            'bs_nepali_datepicker/static/tests/**/*',
         ],
     },
     'images': ['static/description/banner.png'],
